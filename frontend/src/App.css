@@ -1,0 +1,112 @@
+
+.nav li{
+  display: inline-block;
+  padding: 5px;
+
+}
+.nav li a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav{
+  padding:5px;
+  margin: 0;
+  background-color: #61dafb;
+
+}
+.register,.product{
+  margin-left: 30%;
+}
+.inputbox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid #61dafb;
+}
+.btn{
+  margin: 25px;
+ padding: 10px;
+ width: 150px;
+ background: #61dafb;
+ cursor: pointer;
+}
+.nav-right{
+  text-align: right;
+}
+.invalid-ip{
+  color: red;
+  display: block;
+  margin-top: -25px;
+  margin-left: 22px;
+
+}
+.logo{
+width: 40px;
+float: left;
+margin-top: 2px;
+border-radius: 50%;
+margin-left: 18px;
+margin-right: 5px;
+}
+
+.productlist{
+  text-align: center;
+  margin-top: 60px;
+}
+.productlist ul li{
+  display: inline-block;
+  border: 1px solid #61dafb;
+  padding: 5px;
+  width: 150px;
+}
+.productlist ul{
+  margin: 0;
+}
+.search{
+  margin: 20px;
+  width: 400px;
+  height: 40px;
+  padding-left: 20px;
+  border-color: #61dafb;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center  ;
+  background-color: #61dafb;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
